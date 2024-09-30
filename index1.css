@@ -1,0 +1,23 @@
+/* nome bodyDark è arbitrario --> bodyDark corrisponde alla visualizzazione rosa che compare cliccando su h1 */
+
+
+body.bodyDark{
+    background-color: #B78686;
+}
+
+body.bodyDark h1 {
+    background-color: #7C5455;
+}
+
+body.bodyDark footer {
+    background-color: #7C5455;
+}
+/*
+body.bodyDark h2{
+    background-color: #7C5455;
+}
+*/
+body.bodyDark li:hover
+{
+    background-color: #7C5455;
+}

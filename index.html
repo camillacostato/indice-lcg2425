@@ -2,14 +2,20 @@
 <!DOCTYPE html>
 <head>
     <title> Indice della sezione C2 di LCG-IA </title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="index1.css">
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
-<body>
+<body class="bodyLight">
     <!-- vorrei rappresentare un indice con un collegamento ad altre pagine html,
     cliccandolo vorrei che mi portasse ad altre pagine html -->
-    <h1> Indice di informatica applicata C2 </h1>
+    <h1 onclick="change();"> INDICE DI INFORMATICA APPLICATA C2 </h1>
     <p>
         <ul>
-            <li><a href="lezione1.html"> Lezione 1</a></li>
+            <li><a href="lezione1.html">Lezione 1</a></li>
             <li> Lezione 2</li>
             <li> Lezione 3</li>
             <li> Lezione 4</li>
@@ -17,4 +23,12 @@
             <li> Lezione 6</li>
         </ul>
     </p>
+    <footer>
+        <p>&copy;Camilla Costato</p>
+        <p>LABORATORIO DI COMPUTER GRAFICA PER L'INFORMATION DESIGN</p>
+        <p>INFORMATICA APPLICATA</p>
+        <p>A.A. 2024-25</p>
+    </footer>
+    <!-- Script per il cambio del tema -->
+    <script type="text/javascript" src="cambiotema.js"></script>    
 </body>

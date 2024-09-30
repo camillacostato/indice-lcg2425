@@ -1,0 +1,137 @@
+/* nome bodyLight è arbitrario --> bodyLight corrisponde alla visualizzazione blu che è la prima ad apparire al caricamento della pagina*/
+
+body {
+    margin: 0;
+}
+
+body.bodyLight{
+    background-color: #354960;
+}
+
+h1 {
+    color: #fff;
+    border: 1.5px solid #fff;
+    text-align: center;
+    padding: 1%;
+    font-size: 4.5vw;
+    margin: 0.75%;
+    margin-bottom: 0px;
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    letter-spacing: 0.1vw;
+}
+h1:hover {
+    cursor: pointer;
+}
+body.bodyLight h1 {
+    background-color: #1e2b39;
+}
+/*
+h2 {
+    color: #fff;
+    border: 1.5px solid #fff;
+    text-align: center;
+    padding: 1%;
+    font-size: 4vw;
+    margin: 0.75%;
+    margin-bottom: 0px;
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+} 
+body.bodyLight h2 {
+    background-color: #1e2b39;
+}
+*/
+p {
+    margin: 0;
+}
+
+ul {
+    text-decoration: none;
+    list-style-type: none;
+    display: block;
+    margin: 0 35%;
+    padding: 0;
+    
+}
+
+li {
+    color: #fff;
+    border: 1.5px solid #fff;
+    background-color: transparent;
+    text-align: center;
+    padding: 1%;
+    font-size: 1.5vw;
+    display: block;
+    width: auto;
+    margin-top: 3.7vh;
+    padding: 5px;
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    letter-spacing: 0.1vw;
+}
+li:last-child {
+    margin-bottom: 3.7vh;
+}
+li:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+body.bodyLight li:hover
+{
+    background-color: #1e2b39;
+}
+
+a {
+    text-decoration: none;
+    display: block;
+}
+a:visited {
+    text-decoration: none;
+    color: #fff;  
+}
+
+footer {
+        color: #fff;
+        border: 1.5px solid #fff;
+        text-align: center;
+        font-size: 0.65vw;
+        padding: 1%;
+        margin: 0.75%;
+        margin-top: 0px;
+        font-family: 'Urbanist';
+        letter-spacing: 0.225vw;
+        font-weight: 400;
+}
+body.bodyLight footer {
+    background-color: #1e2b39;
+}
+
+
+@media (max-width: 768px) {
+h1 {
+    font-size: 7.35vw;
+    margin: 2%;
+    margin-bottom: 0px;
+}
+/*
+h2 {
+    font-size: 5.75vw;
+}
+*/
+li {
+    font-size: 3.25vw;
+}
+footer {
+    font-size: 1.5vw;
+    margin: 2%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+}
